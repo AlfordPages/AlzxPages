@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alford — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-container">
+
+            <div class="loader-ring"></div>
+            <div class="loader-ring ring2"></div>
+
+            <div class="loader-core">
+                <span>Jarvis</span>
+            </div>
+
+            <div class="loader-text">
+                Initializing...
+            </div>
+
+        </div>
+    </div>
+
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="bg.mp4" type="video/mp4">
+        Browser kamu tidak mendukung video background.
+    </video>
+
+    <div class="noise"></div>
+
+
+    <header>
+        <div class="header-inner">
+            <div class="avatar" id="avatarEl">
+                <img src="foto.png" alt="Alford" id="avatarImg" />
+                <div class="avatar-scan"></div>
+            </div>
+            <div class="header-text">
+                <h1>Alford</h1>
+                <p class="subtitle">Pelajar SMA · Sorong, Papua Barat Daya</p>
+                <div class="badges">
+                    <span class="badge">🌐 Web Dev</span>
+                    <span class="badge">🎨 Design</span>
+                    <span class="badge">🎮 Gaming</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-deco"></div>
+    </header>
+
+    <main class="container">
+
+        <!-- 01 TENTANG -->
+        <section class="card about-card">
+            <span class="card-label">01 — Tentang</span>
+            <h2>Halo, saya Alford!</h2>
+            <p>Seorang pelajar <strong>SMAN Kota Sorong, Papua Barat Daya</strong> yang punya passion besar di dunia
+                teknologi. Saya banyak belajar tentang web development, desain grafis, dan kompetitif di dunia gaming &
+                esports.
+                Tujuan saya adalah menjadi developer yang juga bisa mendesain dengan baik.</p>
+            <div class="bio-grid">
+                <div class="bio-item">
+                    <span class="bio-label">Nama</span>
+                    <span class="bio-value">Alford G. C. Bantong</span>
+                </div>
+                <div class="bio-item">
+                    <span class="bio-label">Status</span>
+                    <span class="bio-value">Pelajar</span>
+                </div>
+                <div class="bio-item">
+                    <span class="bio-label">TTD</span>
+                    <span class="bio-value">Timika, 17 Desember 2008</span>
+                </div>
+                <div class="bio-item">
+                    <span class="bio-label">Fokus</span>
+                    <span class="bio-value">Doctor & IT</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 02 KEAHLIAN -->
+        <section class="card skills-card">
+            <span class="card-label">02 — Keahlian</span>
+            <h2>Minat & Skill</h2>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <div class="skill-icon web">🌐</div>
+                    <div --version class="skill-info">
+                        <strong>Web Development</strong>
+                        <span>HTML · CSS · JavaScript</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon design">🎨</div>
+                    <div class="skill-info">
+                        <strong>Desain Grafis</strong>
+                        <span>Visual · Kreatif · Branding</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="60"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon game">🎮</div>
+                    <div class="skill-info">
+                        <strong>Gaming & Esports</strong>
+                        <span>Kompetitif · Strategi</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 03 KONTAK -->
+        <section class="card contact-card">
+            <span class="card-label">03 — Kontak</span>
+            <h2>Hubungi Saya</h2>
+            <div class="contact-list">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <span class="contact-label">Lokasi</span>
+                        <a href="https://www.google.com/maps/place/Sorong" target="_blank" class="contact-action">
+                            Maps
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📸</span>
+                    <div>
+                        <span class="contact-label">Instagram</span>
+                        <a href="https://instagram.com/justman07" target="_blank" class="contact-action">
+                            Profil
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💻</span>
+                    <div>
+                        <span class="contact-label">GitHub</span>
+                        <a href="https://github.com/AlfordPages" target="_blank" class="contact-action">
+                            Repo
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <div>
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:alfordbantong@gmail.com" class="contact-action">
+                        Email
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- 04 SAPAAN -->
+        <section class="card greet-card">
+            <span class="card-label">04 — Interaksi</span>
+            <h2>Sapaan</h2>
+            <p>Klik tombol di bawah untuk melihat pesan dari saya!</p>
+            <button id="btnSapa">👋 Sapa Alford!</button>
+            <div id="pesanSapaan" class="pesan hidden">
+                Haii! Makasih banget udah mampir ke website saya! 🙌<br>
+                Yuk kita saling kenal dan sama-sama tumbuh di dunia tech & kreatif.<br>
+                Stay semangat dan keep grinding! 🚀🎮
+            </div>
+        </section>
+
+        <!-- 05 MENFESS -->
+        <section class="card menfess-card">
+            <span class="card-label">05 — Menfess</span>
+            <h2>Kirim Pesan ke Alford</h2>
+
+            <!-- Belum login -->
+            <div id="statusBelumLogin" class="status-box">
+                <p>🔒 Login dengan akun Google kamu untuk bisa kirim pesan!</p>
+                <button class="btn-google" onclick="loginGoogle()">
+                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google"
+                        width="18" />
+                    Masuk dengan Google
+                </button>
+            </div>
+
+            <!-- Sudah login -->
+            <div id="formMenfess" class="hidden">
+                <div class="logged-as">
+                    <img id="userPhoto" src="" alt="foto" width="28" height="28"
+                        style="border-radius:50%; object-fit:cover;" />
+                    <span>Login sebagai <strong id="namaUser"></strong></span>
+                    <span class="btn-logout" onclick="logoutGoogle()">Logout</span>
+                </div>
+                <textarea id="inputPesan" placeholder="Tulis pesanmu untuk Alford di sini..." rows="3"></textarea>
+                <button id="btnKirim" onclick="kirimPesan()">📨 Kirim Pesan</button>
+            </div>
+
+            <div id="loadingPesan" class="loading-box hidden">⏳ Memuat pesan...</div>
+            <div id="listPesan" class="list-pesan"></div>
+        </section>
+
+    </main>
+
+    <div id="toastNotif" class="toast-notif">
+        ✅ Pesan berhasil dikirim!
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Alford &mdash; Sorong, Papua Barat Daya &nbsp;·&nbsp; Dibuat dengan 💻 di VSCode</p>
+    </footer>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
